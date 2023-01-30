@@ -1,4 +1,9 @@
 body {
     background-color:#121212;
     color:white;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 99%;
+    font-size:48px;
 }
