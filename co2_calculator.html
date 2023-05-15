@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>CO2 utslipp kalkulator</title>
+</head>
+<body>
+
+    <main class="box">
+        
+        <header>
+            <h1>CO2-utslipp-kalkulator</h1>
+        </header>
+
+        <p>Kjøredistanse (km) <input type="number" id="distanse"></p>
+    
+        <p><b>1. Etter CO2-utslipp:</b></p>
+        <p>Bilens CO2-utslipp per km (gram) <input type="number" id="co2"></p>
+        <p>Utslipp i kg  <input class="result" id="co2_kg">0</input></p>
+    
+        <p><b>2. Etter forbruk per mil:</b></p>
+        <p>Bilens drivstofforbruk per mil <input type="number" id="forbruk"></p>
+        <p>Drivstoff <select id="drivstoff">
+            <option value="bensin">Bensin</option>
+            <option value="diesel">Diesel</option>
+            </select></p>
+        <p>Utslipp i kg <input class="result" id="utslipp_kg"></input></p>
+
+
+        <footer>
+            <button><i style="font-size:14px" class="fa">&#xf021;</i> Tilbakestill</button>
+        </footer>
+    </main>
+</body>
+</html>
